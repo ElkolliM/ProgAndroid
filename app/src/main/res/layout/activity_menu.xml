@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/logoname"
+        android:layout_weight="1">
+    </ImageView>
+    <TextView
+        android:id="@+id/restoNameMenu"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:id="@+id/bookNowButton"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:text="Book now"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:backgroundTint="#FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/Widget.AppCompat.ImageButton"
+            android:id="@+id/home"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:background="#E3E0E0"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home"
+            android:tag="imgBtnAccueil"
+            android:tint="#A6A5A5"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E3E0E0"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search"
+            android:tag="imgBtnMessage"
+            android:tint="#A6A5A5"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/reservations"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E3E0E0"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reservations"
+            android:tag="imgBtnProfil"
+            android:tint="#A6A5A5"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:backgroundTint="#E3E0E0"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile"
+            android:tag="imgBtnNotif"
+            android:tint="#A6A5A5"></ImageButton>
+    </LinearLayout>
+</LinearLayout>

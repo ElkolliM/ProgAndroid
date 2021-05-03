@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="see_times">SEE TIMES</string>
+    <string name="reservation_done">Reservation confirmé</string>
+    <string name="reservation">La reservation à la </string>
+    <string name="restaurant"> du restaurant </string>
+    <string name="done"> a réussi avec succès</string>
+    <string name="taken">PRISE</string>
+    <string name="reservez">RESERVEZ</string>
+    <string name="recherche_de_resto">Recherche de resto</string>
+    <string name="full">COMPLET</string>
+</resources>

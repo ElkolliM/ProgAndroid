@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:backgroundTint="@color/black"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="affordable restaurants in Montreal" />
+
+    <EditText
+        android:id="@+id/editTxtFullName"
+        android:layout_width="305dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#834040"
+        android:foregroundGravity="center_vertical"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTxtNAS"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:foregroundGravity="center_vertical"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="onClick"
+        android:tag="tagLogIn"
+        android:text="Log In"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="tagCreateAccount"
+        android:text="create account" />
+</LinearLayout>

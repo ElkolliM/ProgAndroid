@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".CreateAccount">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="303dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:src="@drawable/food1" />
+
+    <EditText
+        android:id="@+id/editTxtFullName"
+        android:layout_width="295dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#834040"
+        android:foregroundGravity="center_vertical"
+        android:hint="Full name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="296dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#834040"
+        android:foregroundGravity="center_vertical"
+        android:hint="Phone number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="297dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#834040"
+        android:foregroundGravity="center_vertical"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="298dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#834040"
+        android:foregroundGravity="center_vertical"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTxtNAS"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center_vertical"
+        android:hint="NAS"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Terms and conditions" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="306dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="#f24726"
+        android:onClick="onClick"
+        android:text="Create account"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>
